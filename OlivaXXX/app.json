@@ -4,7 +4,7 @@
     "namespace": "OlivaXXX",
     "info": "基本信息:\nOlivOS XXX插件 by 简律纯(HsiangNianian@outlook.com).\n\n文档: \nhttps://jyunko.cn/OlivaXXX",
     "priority": 30000,
-    "version": "3",
+    "version": "3.1",
     "svn": "π",
     "compatible_svn": 101,
     "message_mode": "olivos_string",
