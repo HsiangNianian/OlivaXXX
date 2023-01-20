@@ -1,11 +1,11 @@
 {
-    "name": "OlivaGithub",
+    "name": "OlivaXXX",
     "author": "简律纯",
-    "namespace": "OlivaGithub",
-    "info": "基本信息:\nGithub推送插件 by 简律纯(HsiangNianian@outlook.com).\n\n文档: \nhttps://ss.jyunko.cn/",
+    "namespace": "OlivaXXX",
+    "info": "基本信息:\nOlivOS XXX插件 by 简律纯(HsiangNianian@outlook.com).\n\n文档: \nhttps://jyunko.cn/OlivaXXX",
     "priority": 30000,
-    "version": "1.0.0",
-    "svn": 22,
+    "version": "3",
+    "svn": "π",
     "compatible_svn": 101,
     "message_mode": "olivos_string",
     "support": [
