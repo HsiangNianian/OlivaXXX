@@ -1,0 +1,33 @@
+{
+    "name": "OlivaGithub",
+    "author": "简律纯",
+    "namespace": "OlivaGithub",
+    "info": "基本信息:\nGithub推送插件 by 简律纯(HsiangNianian@outlook.com).\n\n文档: \nhttps://ss.jyunko.cn/",
+    "priority": 30000,
+    "version": "1.0.0",
+    "svn": 22,
+    "compatible_svn": 101,
+    "message_mode": "olivos_string",
+    "support": [
+        {
+            "sdk": "onebot",
+            "platform": "qq",
+            "model": "all"
+        },
+        {
+            "sdk": "all",
+            "platform": "all",
+            "model": "all"
+        }
+    ],
+    "menu_config": [
+        {
+            "title": "配置",
+            "event": "Menu_Conf"
+        },
+        {
+            "title": "关于",
+            "event": "Menu_About"
+        }
+    ]
+}
