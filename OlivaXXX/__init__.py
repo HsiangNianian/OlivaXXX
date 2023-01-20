@@ -1,8 +1,7 @@
 import os
 from . import main
-from . import github
 
 try: 
-    os.mkdir(os.sep.join(['.','plugin','data','OlivaGithub']))
+    os.mkdir(os.sep.join(['.','plugin','data','OlivaXXX']))
 except FileExistsError: 
     pass
