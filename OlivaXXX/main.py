@@ -20,11 +20,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 '''
 import OlivOS
-import OlivaGithub
-from OlivaGithub.github import GitHub
+import OlivaXXX
 
-gh = GitHub(token="ghp_qgwgQns******08970z")
-    
 class Event(object):
     def init(plugin_event, Proc):
         pass
@@ -45,30 +42,8 @@ class Event(object):
             elif plugin_event.data.event == 'Menu_About':  # type: ignore
                 pass
              
-                                     
-"""
-// Octokit.js
-// https://github.com/octokit/core.js#readme
-const octokit = new Octokit({
-  auth: 'YOUR-TOKEN'
-})
-
-await octokit.request('POST /orgs/{org}/repos', {
-  org: 'ORG',
-  name: 'Hello-World',
-  description: 'This is your first repository',
-  homepage: 'https://github.com',
-  'private': false,
-  has_issues: true,
-  has_projects: true,
-  has_wiki: true
-})
-"""
-
+                                    
 def util(plugin_event,Proc):
-    # @
     msg = plugin_event.data.message
     if msg == "test":
-        r = gh.repos("HsiangNianian")("OlivaGithub").repos.post(dict(name="OlivaGithub",decsription="一个简单的github推送插件",has_issues=True))
-        #r = gh.repos('HsiangNianian')('OlivaGithub').issues.post(title='issues 10', body='#10', assignees=['HsiangNianian','BalugaLand'])
-        plugin_event.reply(str(gh.x_ratelimit_limit)+r.title)
+        plugin_event.reply("BAKA")
