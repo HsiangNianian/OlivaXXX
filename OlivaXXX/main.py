@@ -23,7 +23,7 @@ import OlivOS
 import OlivaGithub
 from OlivaGithub.github import GitHub
 
-gh = GitHub(token="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")
+gh = GitHub(token="ghp_qgwgQns******08970z")
     
 class Event(object):
     def init(plugin_event, Proc):
