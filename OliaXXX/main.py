@@ -20,7 +20,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 '''
 import OlivOS
-import OlivaScheduler
+import OlivaXXX
 
 class Event(object):
     def init(plugin_event, Proc):
