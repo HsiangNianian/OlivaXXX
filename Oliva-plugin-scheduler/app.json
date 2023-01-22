@@ -1,7 +1,7 @@
 {
     "name": "Oliva-plugin-scheduler",
     "author": "简律纯",
-    "namespace": "Oliva-plugin-scheduler",
+    "namespace": "OlivaScheduler",
     "info": "基本信息:\nOlivOS 定时插件 by 简律纯(HsiangNianian@outlook.com).\n\n文档: \nhttps://jyunko.cn/OlivaXXX",
     "priority": 30000,
     "version": "3.1",
