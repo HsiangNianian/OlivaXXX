@@ -23,24 +23,22 @@ import OlivOS
 import OlivaXXX
 
 class Event(object):
-    def init(plugin_event, Proc):
+    def init(self, Proc):
         pass
     
-    def private_message(plugin_event,Proc):
-        util(plugin_event,Proc)
+    def private_message(self, Proc):
+        util(self, Proc)
         
-    def group_message(plugin_event,Proc):
-        util(plugin_event,Proc)
+    def group_message(self, Proc):
+        util(self, Proc)
                     
-    def save(plugin_event, Proc):
+    def save(self, Proc):
         pass
 
-    def menu(plugin_event, Proc):
-        if plugin_event.data.namespace == 'DailyNews':  # type: ignore
-            if plugin_event.data.event == 'Menu_Config':  # type: ignore
+    def menu(self, Proc):
+        if self.data.namespace == 'DailyNews':  # type: ignore
+            if self.data.event == 'Menu_Config':  # type: ignore
                 logg("有笨蛋打开了配置")
-            elif plugin_event.data.event == 'Menu_About':  # type: ignore
-                pass
              
                                     
 def util(plugin_event,Proc):
